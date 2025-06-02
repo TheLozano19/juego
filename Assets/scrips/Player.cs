@@ -265,6 +265,7 @@ public class Player : MonoBehaviour
         {
             mirandoD = !mirandoD;
             transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+            //transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
         }
 
     }
